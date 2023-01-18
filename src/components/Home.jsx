@@ -13,7 +13,7 @@ const Home = () => {
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
           Welcome, I am Jun from South Korea and currently living in the UK. I
-          am motivated, hardworking. I work well as part of a team while also
+          am motivated and hardworking. I work well as part of a team while also
           being independent. I am eager to learn more and would be grateful for
           new opportunities. I am looking forward to working with you.
         </p>
