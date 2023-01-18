@@ -45,6 +45,11 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        <li>
+          <a href={CV} download="Jun CV.pdf" className="hidden">
+            CV
+          </a>
+        </li>
       </ul>
 
       {/* Hamburger */}
@@ -93,6 +98,11 @@ const Navbar = () => {
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <a href={CV} download="Jun CV.pdf" className="cursor-pointer">
+            CV
+          </a>
         </li>
       </ul>
 
