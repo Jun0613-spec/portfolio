@@ -19,10 +19,10 @@ const About = () => {
           </div>
           <div>
             <p className="">
-              I'm passionate about building excellent software or website that
-              improves the lives of those around me. I specialize in creating
-              software or website for clients ranging from individuals and
-              small-businesses all the way to large enterprise corporations.
+              I am motivated and hardworking. I work well as part of a team
+              while also being independent. I am eager to learn more and would
+              be grateful for new opportunities. I am looking forward to working
+              with you.
             </p>
           </div>
         </div>
