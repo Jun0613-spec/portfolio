@@ -9,7 +9,7 @@ const Home = () => {
         <p className="text-teal-400">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#fff]">JUN PARK</h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
-          I'm a Front-end Developer.
+          I'm a Developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
           Welcome to my website, I am passionate about building excellent

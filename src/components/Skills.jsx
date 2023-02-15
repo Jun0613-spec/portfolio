@@ -9,6 +9,9 @@ import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
 import NextJS from "../assets/nextJS.png";
 import Figma from "../assets/figma.png";
+import Node from "../assets/node.png";
+import Mongo from "../assets/mongo.png";
+import Mysql from "../assets/mysql.png";
 
 const Skills = () => {
   return (
@@ -24,39 +27,52 @@ const Skills = () => {
 
         <div className="w-full grid grid-cols-3 sm:grid-cols-3 gap-3 text-center py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={HTML} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={HTML} alt="skill icon" />
             <p className="my-4">HTML</p>
           </div>
+
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={CSS} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={CSS} alt="skill icon" />
             <p className="my-4">CSS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={JavaScript} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={JavaScript} alt="skill icon" />
             <p className="my-4">JAVASCRIPT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={Node} alt="skill icon" />
+            <p className="my-4">NODE.JS</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Mongo} alt="skill icon" />
+            <p className="my-4">MONGO DB</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Mysql} alt="skill icon" />
+            <p className="my-4">MYSQL</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={ReactImg} alt="skill icon" />
             <p className="my-4">REACT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={NextJS} alt="HTML icon" />
-            <p className="my-4">NEXTJS</p>
+            <img className="w-20 mx-auto" src={NextJS} alt="skill icon" />
+            <p className="my-4">NEXT.JS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={GitHub} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={GitHub} alt="skill icon" />
             <p className="my-4">GITHUB</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={Tailwind} alt="skill icon" />
             <p className="my-4">TAILWIND</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={FireBase} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={FireBase} alt="skill icon" />
             <p className="my-4">FIREBASE</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Figma} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={Figma} alt="skill icon" />
             <p className="my-4">FIGMA</p>
           </div>
         </div>
