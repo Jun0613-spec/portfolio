@@ -1,9 +1,10 @@
 import Pizza from "../assets/projects/pizza.png";
 import Travel from "../assets/projects/travel.png";
-import Linktree from "../assets/projects/linktree.png";
+
 import Twitch from "../assets/projects/twitch.png";
 import Netflix from "../assets/projects/netflix.png";
 import Crypto from "../assets/projects/crypto.png";
+import Booking from "../assets/projects/booking.png";
 
 export const data = [
   {
@@ -15,10 +16,10 @@ export const data = [
   },
   {
     id: 2,
-    name: "Linktree Clone",
-    image: Linktree,
-    github: "https://github.com/Jun0613-spec/linktree-clone",
-    live: "https://linktree-clone-beta-brown.vercel.app/",
+    name: "Booking Clone App",
+    image: Booking,
+    github: "https://github.com/Jun0613-spec/booking-clone-web-mern",
+    live: "https://booking-clone-3ytg.onrender.com/",
   },
   {
     id: 3,
