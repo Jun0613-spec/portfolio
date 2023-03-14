@@ -11,7 +11,6 @@ import NextJS from "../assets/nextJS.png";
 import Figma from "../assets/figma.png";
 import Node from "../assets/node.png";
 import Mongo from "../assets/mongo.png";
-import Mysql from "../assets/mysql.png";
 
 const Skills = () => {
   return (
@@ -46,10 +45,6 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Mongo} alt="skill icon" />
             <p className="my-4">MONGO DB</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Mysql} alt="skill icon" />
-            <p className="my-4">MYSQL</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={ReactImg} alt="skill icon" />
